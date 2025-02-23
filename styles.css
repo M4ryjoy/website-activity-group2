@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.created-by {
+    font-size: 18px;
+}
+
+.members {
+    background-color: #f0e68c; /* Highlight color that complements beige */
+    padding: 5px;
+    border-radius: 5px;
+}

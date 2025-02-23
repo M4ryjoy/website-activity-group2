@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Website Activity</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .terminology-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: beige;
+        }
+
+        .terminology {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: white;
+        }
+
+        .terminology img {
+            max-width: 100px;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .terminology h2 {
+            font-size: 24px;
+            margin: 0 0 10px;
+        }
+
+        .terminology p {
+            font-size: 16px;
+            margin: 0;
+        }
+
+        #terminologies {
+            display: none;
+            max-height: 80vh;
+            overflow-y: auto;
+            padding: 20px;
+        }
+
+        .header {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        .back-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="welcome">
+        <div class="container">
+            <h1>Welcome to Our Website Activity</h1>
+            <button id="startButton">Start Exploring</button>
+            <p class="created-by"><strong>Created by Group 2:</strong></p>
+            <p class="members">Fernandez, Juvy Ann | Nudalo, Mary Joy | Belisario, Jonathan | Valdez, John Lorie | Rodriguez, Rosemarie Ann</p>
+        </div>
+    </div>
+
+    <div id="terminologies">
+        <div class="terminology-container">
+            <h1 class="header">Terminologies</h1>
+            <div class="scrollable">
+                <div class="terminology">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/242px-Java_programming_language_logo.svg.png" alt="Java logo">
+                    <h2>Java</h2>
+                    <p>Java is an object-oriented programming language used in back-end development for web applications, enterprise software, and mobile apps. It is one of the most popular languages for server-side programming.</p>
+                </div>
+                <div class="terminology">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/New_Firebase_logo.svg/440px-New_Firebase_logo.svg.png" alt="Firebase logo">
+                    <h2>Firebase</h2>
+                    <p>Firebase is a backend-as-a-service (BaaS) platform by Google that provides a real-time database, authentication, cloud functions, and other services for web and mobile development.</p>
+                </div>
+                <div class="terminology">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/440px-Node.js_logo.svg.png" alt="Node.js logo">
+                    <h2>Node.js</h2>
+                    <p>Node.js is an open-source runtime environment that allows JavaScript to run on the server side, making it a popular tool for back-end development.</p>
+                </div>
+                <div class="terminology">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/dd/MySQL_logo.svg/200px-MySQL_logo.svg.png" alt="MySQL logo">
+                    <h2>MySQL</h2>
+                    <p>MySQL is an open-source relational database management system (RDBMS) used in the back end to store and manage structured data.</p>
+                </div>
+                <div class="terminology">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/340px-Vue.js_Logo_2.svg.png" alt="Vue.js logo">
+                    <h2>Vue.js</h2>
+                    <p>Vue.js is a JavaScript framework used for front-end development, but it can also be used with Node.js on the back end to build server-side rendered applications.</p>
+                </div>
+                <div class="terminology">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/88px-Jupyter_logo.svg.png?20190118024747" alt="Jupyter logo">
+                    <h2>Jupyter Notebook</h2>
+                    <p>The Jupyter Notebook is an open-source web application that enables developers to create and share documents containing live code, equations, visualizations, and narrative text. While it is commonly used in data science and machine learning, it is also utilized in back-end development for data analysis, prototyping, and code documentation.</p>
+                </div>
+                <div class="terminology">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/218px-JSON_vector_logo.svg.png" alt="JSON logo">
+                    <h2>JSON</h2>
+                    <p>JavaScript Object Notation (JSON) is a lightweight data format used for sending and receiving data between the client and server. It is commonly used in REST APIs.</p>
+                </div>
+                <div class="terminology">
+                    <img src="https://creativebeacon.com/wp-content/uploads/2015/01/backbonejs.jpg" alt="Backbone.js logo">
+                    <h2>Backbone.js</h2>
+                    <p>Backbone.js is a JavaScript library that provides structure to web applications by offering models with key-value binding and custom events. While it is commonly used on the front-end, it can also be utilized on the back-end to manage application data and logic.</p>
+                </div>
+                <div class="terminology">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Redis_logo.svg/400px-Redis_logo.svg.png" alt="Redis logo">
+                    <h2>Redis</h2>
+                    <p>Redis is an open-source in-memory data structure store used as a database, cache, and message broker in back-end development.</p>
+                </div>
+                <div class="terminology">
+                    <img src="https://s3.amazonaws.com/kinlane-productions2/salesforce/salesforce-rest-api.png" alt="REST API logo">
+                    <h2>REST API</h2>
+                    <p>The REST API (Representational State Transfer Application Programming Interface) is an architectural style used for sending and receiving data between the client and server.</p>
+                </div>
+            </div>
+            <button class="back-button" id="backButton">Back</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
